@@ -11,20 +11,21 @@ package Entidad;
  */
 public class Cuenta {
     private int id;
-    private TipoCuenta tipo:
-    private double saldo;
-   
-    private String cedula;
+    private TipoCuenta tipo;
+    private double saldo;   
+    private String cedula; 
     
-    public Cuenta(int id, TipoCuenta tipo, double saldo, String cedula)
+    private int edad;
+    
+    
+    public Cuenta(int id, TipoCuenta tipo, double saldo, String cedula,int edad)
     {
         this.id = id;
         this.tipo = tipo;
         this.saldo = saldo;
-        this.cedula = cedula;
-            
-    }
-    
+        this.cedula = cedula;  
+        this.edad=edad;
+    }  
     
     
     public int getId() {
