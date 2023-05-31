@@ -13,9 +13,10 @@ public class Cuenta {
     private int id;
     private TipoCuenta tipo;
     private double saldo;   
-    private String cedula;  
+    private String cedula;   
+   
     
-    
+
     
     public Cuenta(int id, TipoCuenta tipo, double saldo, String cedula)
     {
@@ -23,8 +24,11 @@ public class Cuenta {
         this.tipo = tipo;
         this.saldo = saldo;
         this.cedula = cedula;         
-    }  
+    }    
+            
     
+   
+
     
     public int getId() {
         return id;
