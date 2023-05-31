@@ -13,18 +13,16 @@ public class Cuenta {
     private int id;
     private TipoCuenta tipo;
     private double saldo;   
-    private String cedula; 
-    
-    private int edad;
+    private String cedula;  
     
     
-    public Cuenta(int id, TipoCuenta tipo, double saldo, String cedula,int edad)
+    
+    public Cuenta(int id, TipoCuenta tipo, double saldo, String cedula)
     {
         this.id = id;
         this.tipo = tipo;
         this.saldo = saldo;
-        this.cedula = cedula;  
-        this.edad=edad;
+        this.cedula = cedula;         
     }  
     
     
