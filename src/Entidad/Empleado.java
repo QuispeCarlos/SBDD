@@ -11,12 +11,15 @@ package Entidad;
  */
 public class Empleado {
 
-    public Empleado(String cedula, String nombre, String apellido)
+    private String cedula, nombre, apellido;
+    char genero;
+    
+    public Empleado(String cedula, String nombre, String apellido, char genero)
     {
         this.cedula = cedula;
         this.nombre = nombre;
         this.apellido = apellido;
-        
+        this.genero = genero;
     }
     
     public String getCedula() {
@@ -42,7 +45,7 @@ public class Empleado {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
-    private String cedula, nombre, apellido;
+    
     
     
 }
