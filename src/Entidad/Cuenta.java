@@ -11,7 +11,7 @@ package Entidad;
  */
 public class Cuenta {
     private int id;
-    private TipoCuenta tipo:
+    private TipoCuenta tipo;
     private double saldo;
    
     private String cedula;
@@ -25,7 +25,7 @@ public class Cuenta {
             
     }
     
-    
+   
     
     public int getId() {
         return id;
